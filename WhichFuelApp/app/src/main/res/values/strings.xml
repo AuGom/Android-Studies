@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WhichFuelApp</string>
+    <string name="subtext">Saiba a melhor opção de abastecimento.</string>
+    <string name="fuelPrice">Preço</string>
+    <string name="gasPrice">Preço da gadolina ex: 4.40</string>
+    <string name="alcoholPrice">Preço do alcool ex: 3.20</string>
+    <string name="calcButton">Calcular</string>
+</resources>

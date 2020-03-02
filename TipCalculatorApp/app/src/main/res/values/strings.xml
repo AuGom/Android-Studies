@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TipCalculatorApp</string>
+    <string name="value">Digite o valor da conta ex. 50.00</string>
+    <string name="initalPercentage">0%</string>
+    <string name="initialValue">0.00</string>
+    <string name="tip">Gorjeta</string>
+    <string name="total">Total</string>
+</resources>

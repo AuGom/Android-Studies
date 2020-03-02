@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NetflixApp</string>
+    <string name="mediaTitle">House of Cards</string>
+    <string name="episodeMark">S1:E2</string>
+    <string name="commentsDescription">Comments icon</string>
+    <string name="volumeDescription">Volume icon</string>
+    <string name="favoriteDescription">Favorite icon</string>
+    <string name="copyDescription">Copy icon</string>
+    <string name="elapsedTime">01:30</string>
+    <string name="finalTime">42:20</string>
+    <string name="mainContent">videoPlayer</string>
+    <string name="repeat">Repeat icon</string>
+    <string name="pause">Pause icon</string>
+    <string name="play">Play icon</string>
+</resources>

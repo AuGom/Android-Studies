@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuotesApp</string>
+    <string name="generateButton">Gerar frase</string>
+    <string name="quote">Precione o botão para gerar uma nova frase.</string>
+</resources>

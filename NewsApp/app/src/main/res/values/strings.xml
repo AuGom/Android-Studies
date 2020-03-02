@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="subImageText">Aprenda sobre edição de imagem.</string>
+    <string name="date">10/02/2020</string>
+    <string name="mainText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Proin et mauris semper, lobortis diam eu, aliquet est.
+                            Vestibulum tellus ex, lacinia vel lorem ac, maximus ornare ligula.
+                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                            Donec porttitor augue nec mi accumsan auctor.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Proin et mauris semper, lobortis diam eu, aliquet est.
+                            Vestibulum tellus ex, lacinia vel lorem ac, maximus ornare ligula.
+                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                            Donec porttitor augue nec mi accumsan auctor.
+    </string>
+    <string name="nextButtom">Próximo</string>
+    <string name="prevButtom">Anterior</string>
+    <string name="author">Augusto Gomes</string>
+</resources>
