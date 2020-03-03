@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        RecyclerView recyclerViewPost = findViewById(R.id.recyclerView);
+        RecyclerView recyclerViewPost = findViewById(R.id.recyclerViewPost);
 
         //Layout
         RecyclerView.LayoutManager layoutManager=new LinearLayoutManager(this);

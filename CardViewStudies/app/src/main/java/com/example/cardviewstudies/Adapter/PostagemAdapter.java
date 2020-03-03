@@ -36,8 +36,6 @@ public class PostagemAdapter extends RecyclerView.Adapter<PostagemAdapter.MyView
         holder.nome.setText(post.getNome());
         holder.postagem.setText(post.getPostagem());
         holder.imagem.setImageResource(post.getImagem());
-
-
     }
 
     @Override
@@ -45,17 +43,17 @@ public class PostagemAdapter extends RecyclerView.Adapter<PostagemAdapter.MyView
         return postagens.size();
     }
 
-    public  class MyViewHolder extends RecyclerView.ViewHolder{
+    static class MyViewHolder extends RecyclerView.ViewHolder{
 
         private TextView nome;
         private TextView postagem;
         private ImageView imagem;
 
-        public MyViewHolder(View itemView) {
+        MyViewHolder(View itemView) {
             super(itemView);
             nome=itemView.findViewById(R.id.textView);
-            postagem=itemView.findViewById(R.id.textView2);
-            imagem=itemView.findViewById(R.id.textView3);
+            postagem=itemView.findViewById(R.id.textView3);
+            imagem=itemView.findViewById(R.id.imageView);
         }
 
 

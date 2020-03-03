@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent=new Intent(getApplicationContext(), SecondaryActivity.class);
 
                 //creating new object
-                User user=new User("Augsto","shambala@lambasha.com");
+                User user=new User("Augusto","shambala@lambasha.com");
 
                 //pass data
                 intent.putExtra("name","Augusto");
