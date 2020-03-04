@@ -55,9 +55,9 @@ public class MainActivity extends AppCompatActivity {
                             public void onItemClick(View view, int position) {
                                 Toast.makeText(
                                         getApplicationContext(),
-                                        position,
+                                        String.valueOf(position),
                                         Toast.LENGTH_SHORT
-                                );
+                                ).show();
 
                             }
 
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                                         getApplicationContext(),
                                         filme.getTitulo(),
                                         Toast.LENGTH_LONG
-                                );
+                                ).show();
 
                             }
 
