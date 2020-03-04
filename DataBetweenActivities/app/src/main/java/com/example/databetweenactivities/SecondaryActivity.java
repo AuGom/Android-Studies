@@ -7,21 +7,18 @@ import android.widget.TextView;
 
 public class SecondaryActivity extends AppCompatActivity {
 
-    private TextView textViewName;
-    private TextView textViewAge;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_secondary);
 
-        textViewAge=findViewById(R.id.textViewAge);
-        textViewName=findViewById(R.id.textViewName);
+        TextView textViewAge = findViewById(R.id.textViewAge);
+        TextView textViewName = findViewById(R.id.textViewName);
 
         //retrieve data
         Bundle data=getIntent().getExtras();
         String name=data.getString("name");
-        int age=data.getInt("age");
+        String age=data.getString("age");
         User user= (User) data.getSerializable("object");
 
         //setting the retrieved data
